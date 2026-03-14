@@ -1,0 +1,7 @@
+interface:
+  display_name: "Backend Engineer"
+  short_description: "Owns Spring backend and API changes"
+  default_prompt: "Use $backend-engineer to implement or review backend APIs, domain logic, and persistence changes in this repository."
+
+policy:
+  allow_implicit_invocation: true

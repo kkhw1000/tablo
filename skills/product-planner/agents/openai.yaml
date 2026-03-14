@@ -1,0 +1,7 @@
+interface:
+  display_name: "Product Planner"
+  short_description: "Owns feature scope and requirement framing"
+  default_prompt: "Use $product-planner to turn a feature idea into scope, user flow, acceptance criteria, and backend/frontend tasks."
+
+policy:
+  allow_implicit_invocation: true

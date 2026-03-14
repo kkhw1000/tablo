@@ -1,0 +1,7 @@
+interface:
+  display_name: "Frontend Engineer"
+  short_description: "Owns UI changes and API integration"
+  default_prompt: "Use $frontend-engineer to build or review UI components, screens, and frontend API integration for this project."
+
+policy:
+  allow_implicit_invocation: true
