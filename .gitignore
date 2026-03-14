@@ -39,3 +39,14 @@ frontend/node_modules/
 frontend/dist/
 frontend/.next/
 frontend/.turbo/
+
+### Local Secrets ###
+.env
+.env.*
+!.env.example
+**/*.local.yml
+**/*.secret.yml
+!docker-compose.local.yml
+backend/src/main/resources/application-local.yml
+backend/src/main/resources/application-*.local.yml
+backend/src/main/resources/application-*.secret.yml
