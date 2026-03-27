@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: Tablo
+  profiles:
+    default: local
+
+security:
+  jwt:
+    access-token-expiration-seconds: 3600

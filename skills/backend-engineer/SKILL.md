@@ -38,6 +38,7 @@ description: Spring Boot backend 구현, 수정, 리뷰용 스킬. 이 저장소
 - persistence를 수정할 때는 entity mapping, repository query, transaction boundary를 함께 검증한다.
 - 클린 코드 원칙을 추상 구호로 쓰지 말고, 명확한 이름, 작은 단위의 메서드, 중복 억제, 불필요한 추상화 회피로 드러낸다.
 - 성능은 실제 병목이 생기기 쉬운 쿼리 수, 불필요한 조회, 컬렉션 처리 비용을 먼저 점검하고, 근거 없는 과도한 최적화는 피한다.
+- service 계층에는 요청 흐름과 주요 상태 변화를 추적할 수 있는 로그를 남기되, 비밀번호, 토큰 원문, 민감정보는 로그에 남기지 않는다.
 
 ## Review Focus
 
