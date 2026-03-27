@@ -29,3 +29,8 @@
 - 백엔드 코드는 `backend/` 아래에 둡니다.
 - 프론트엔드 코드는 `frontend/` 아래에 둡니다.
 - 공통 작업 규칙과 스킬 진입점은 루트 `AGENTS.md`와 `skills/`에서 관리합니다.
+
+### Commit message convention
+- Git 커밋 메시지는 `feat:`, `fix:`, `chore:` 같은 타입 prefix는 유지합니다.
+- prefix 뒤 설명은 한글로 작성합니다.
+- 예시: `feat: 로그인 예외 처리 추가`, `fix: 주문 상태 갱신 버그 수정`
